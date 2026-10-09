@@ -9,6 +9,7 @@ namespace Chapter3
     internal class Student
     {
         //FIELDS/ATTRIBUTES
+        private string studentId;
         private string name;
         private int score;
 
@@ -23,17 +24,23 @@ namespace Chapter3
             get { return score; }
             set { score = value; }
         }
+        public string StudentId
+        {
+            get { return studentId; }
+            set { studentId = value; }
+        }
         //CONSTRUCTOR
         //TO INTIALIZE THE FIELDS
         //WHEN CREATING AN OBJECT
         // OF STUDENT CLASS
-        public Student(string name, int score)
+        public Student(string studentId,string name, int score)
         {
+            StudentId = studentId;
             Name = name;
             Score = score;
         }
         // method(s)
-        public char GetLetterGrade()
+        /*public char GetLetterGrade()
         {
             char letterGrade;
             if (Score >= 90)
@@ -48,9 +55,10 @@ namespace Chapter3
                 letterGrade = 'F';
             return letterGrade;
         }
+        */
         public override string ToString()
         {
-            return $"Name: {Name}, Letter Grade is:{GetLetterGrade()}";
+            return $"Name: {Name},Score is:{Score}";
         }
     }
 }

@@ -43,14 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
     <Compile Include="Challenge4.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="forloop.cs" />
+    <Compile Include="Graduate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program01_1.cs" />
     <Compile Include="Program01_2.cs" />
     <Compile Include="Program01_3.cs" />
     <Compile Include="Program01_4.cs" />
     <Compile Include="Program01_5.cs" />
+    <Compile Include="Program08_1.cs" />
+    <Compile Include="Program08_2.cs" />
+    <Compile Include="Program08_3.cs" />
     <Compile Include="Program1.cs" />
     <Compile Include="Program24_1.cs" />
     <Compile Include="Program24_2.cs" />
@@ -59,6 +65,7 @@
     <Compile Include="shippingcost.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="switchcase.cs" />
+    <Compile Include="UnderGraduate.cs" />
     <Compile Include="whileloop.cs" />
   </ItemGroup>
   <ItemGroup>

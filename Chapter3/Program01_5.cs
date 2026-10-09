@@ -8,12 +8,12 @@ namespace Chapter3
 {
     internal class Program01_5
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             //CREATE AN OBJECT OF STUDENT CLASSS
             //Ram is an object of Student class
-            Student student1 = new Student("Ram",80);
-            Console.WriteLine(student1);
+            //Student student1 = new Student("Ram",80);
+            //Console.WriteLine(student1);
         }
     }
 }
